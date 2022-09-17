@@ -3,10 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Studio Projects/i190438/app/src/main/res/drawable/halfround.xml" value="0.1825" />
+        <entry key="..\:/Android Studio Projects/i190438/app/src/main/res/drawable/halfroundclr.xml" value="0.1825" />
+        <entry key="..\:/Android Studio Projects/i190438/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.1885" />
+        <entry key="..\:/Android Studio Projects/i190438/app/src/main/res/drawable/ic_sharp_more_vert_24.xml" value="0.1485" />
         <entry key="..\:/Android Studio Projects/i190438/app/src/main/res/drawable/round_bttn.xml" value="0.106" />
+        <entry key="..\:/Android Studio Projects/i190438/app/src/main/res/drawable/roundclr.xml" value="0.123" />
         <entry key="..\:/Android Studio Projects/i190438/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Android Studio Projects/i190438/app/src/main/res/layout/activity_screen1.xml" value="0.25" />
-        <entry key="..\:/Android Studio Projects/i190438/app/src/main/res/layout/activity_screen4.xml" value="0.22" />
+        <entry key="..\:/Android Studio Projects/i190438/app/src/main/res/layout/activity_screen1.xml" value="0.17721518987341772" />
+        <entry key="..\:/Android Studio Projects/i190438/app/src/main/res/layout/activity_screen2.xml" value="0.18020833333333333" />
+        <entry key="..\:/Android Studio Projects/i190438/app/src/main/res/layout/activity_screen3.xml" value="0.18020833333333333" />
+        <entry key="..\:/Android Studio Projects/i190438/app/src/main/res/layout/activity_screen4.xml" value="0.25" />
       </map>
     </option>
   </component>
