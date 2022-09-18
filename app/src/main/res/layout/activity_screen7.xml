@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="243dp"
+            android:layout_height="53dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="117dp"
+            android:layout_marginBottom="23dp"
+            android:text="Add Playlist"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:layout_width="328dp"
+            android:layout_height="274dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="38dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/gradientbttn"
+            android:src="@drawable/ic_baseline_cloud_upload_24" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="339dp">
+
+        <EditText
+            android:id="@+id/playlistName"
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="242dp"
+            android:background="@drawable/rectangularbttn"
+            android:hint="   Playlist Name"
+            android:textAlignment="textStart"
+            android:textColorHint="#d5b300"
+            android:textSize="30dp"
+            tools:visibility="visible"/>
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="375dp"
+            android:layout_height="124dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="101dp"
+            android:background="@drawable/rectangularbttn"
+            android:hint="  Description"
+            android:textAlignment="textStart"
+            android:textColorHint="#d5b300"
+            android:textSize="30dp"
+            tools:visibility="visible"/>
+
+        <TextView
+            android:layout_width="172dp"
+            android:layout_height="64dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/roundclr"
+            android:text="Add Playlist"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:background="#2a2831">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="329dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/like" />
+
+        <ImageView
+            android:layout_width="62dp"
+            android:layout_height="51dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="218dp"
+            android:layout_marginBottom="33dp"
+            android:src="@drawable/add" />
+
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="56dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginBottom="33dp"
+            android:src="@drawable/later" />
+
+        <ImageView
+            android:layout_width="101dp"
+            android:layout_height="101dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="14dp"
+            android:src="@drawable/search1" />
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="29dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="273dp"
+            android:layout_marginBottom="7dp"
+            android:text="Like"
+            android:textColor="#FFF"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="29dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="179dp"
+            android:layout_marginBottom="7dp"
+            android:text="Add"
+            android:textColor="#FFF"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="29dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="88dp"
+            android:layout_marginBottom="8dp"
+            android:text="Search"
+            android:textColor="#FFF"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="29dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="8dp"
+            android:text="Listen Later"
+            android:textColor="#FFF"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+</LinearLayout>
